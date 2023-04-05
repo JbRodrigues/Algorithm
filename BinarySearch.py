@@ -1,8 +1,6 @@
 import math
 from random import randint
 
-
-
 #define a random number between 1 and 100
 number = randint(1,100)
 attempt = 0
@@ -28,8 +26,3 @@ while minn <  maxx:
     if guess == number:
         print("You Got it, with " + str(attempt) + " attempts")
         break
-
-
-
-
-
